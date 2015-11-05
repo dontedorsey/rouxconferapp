@@ -17,13 +17,11 @@
   <section class="container">
     <div class="content row">
       <section class="main col col-lg-8">
-        <h2>Main Content</h2>
-        <p>Non sed comprehenderit.</p>
+        <?php include "components/php/header.php"; ?>
       </section>
       <!-- main -->
       <section class="sidebar col-lg-4">
-        <h2>SideBar Content</h2>
-        <p>Non sed comprehenderit.</p>
+
       </section>
       <!-- sidebar -->
     </div>
