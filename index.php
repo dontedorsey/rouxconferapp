@@ -16,8 +16,11 @@
 
   <section class="container">
     <div class="content row">
+       <?php include "components/php/header.php"; ?>
+       <?php include "components/php/snippet-carousel.php"; ?>
       <section class="main col-lg-8">
-        <?php include "components/php/header.php"; ?>
+       <?php include "components/php/article-intro.php"; ?>
+       <?php include "components/php/article-abouttheartists.php"; ?>
       </section>
       <!-- main -->
       <section class="sidebar col-lg-4">
