@@ -26,6 +26,7 @@
       <!-- sidebar -->
     </div>
     <!-- content -->
+    <?php include "components/php/footer.php"; ?>
   </section>
   <!--container-->
 

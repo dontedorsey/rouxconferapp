@@ -16,7 +16,7 @@
 
   <section class="container">
     <div class="content row">
-      <section class="main col col-lg-8">
+      <section class="main col-lg-8">
         <?php include "components/php/header.php"; ?>
       </section>
       <!-- main -->
@@ -26,6 +26,7 @@
       <!-- sidebar -->
     </div>
     <!-- content -->
+    <?php include "components/php/footer.php"; ?>
   </section>
   <!--container-->
 
@@ -36,6 +37,7 @@
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="js/jquery-1.11.3.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="components/js/myscript.js"></script>
 
 </body>
 
