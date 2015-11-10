@@ -14,15 +14,17 @@
 
 <body id="schedule">
 
-  <section class="container">
+ <section class="container">
     <div class="content row">
-      <?php include "components/php/header.php"; ?>
-      <section class="main col col-lg-8">
-
+       <?php include "components/php/header.php"; ?>
+      <section class="main col-lg-8">
+       <?php include "components/php/article-schedule.php"; ?>
       </section>
       <!-- main -->
       <section class="sidebar col-lg-4">
-
+        <?php include "components/php/aside-register.php"; ?>
+        <?php include "components/php/aside-lastyear.php"; ?>
+        <?php include "components/php/aside-abouttheartists.php"; ?>
       </section>
       <!-- sidebar -->
     </div>

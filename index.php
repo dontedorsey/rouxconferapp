@@ -21,10 +21,13 @@
       <section class="main col-lg-8">
        <?php include "components/php/article-intro.php"; ?>
        <?php include "components/php/article-abouttheartists.php"; ?>
+        <?php include "components/php/article-aboutthevenue.php"; ?>
       </section>
       <!-- main -->
       <section class="sidebar col-lg-4">
-
+        <?php include "components/php/aside-register.php"; ?>
+        <?php include "components/php/aside-lastyear.php"; ?>
+        <?php include "components/php/aside-accordion.php"; ?>
       </section>
       <!-- sidebar -->
     </div>

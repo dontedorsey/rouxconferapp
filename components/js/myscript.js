@@ -1,6 +1,12 @@
 /*global $ */
 $(function () {
 
+  //activate scheduled tabs
+
+  var hash = window.location.hash;
+
+  hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+
   //highlight current nav
   'use strict';
   $("#home a:contains('Home')").parent().addClass('active');
@@ -16,5 +22,24 @@ $(function () {
     $('.dropdown-menu', this).fadeOut('fast');
   });//hover
 
+
+  //show tooltips on photo grid
   $("[data-toggle='tooltip']").tooltip({animation: true});
+
+  //show modals
+  $('.modalphotos img').on('click', function () {
+    $('#modal').modal({
+      show: true
+    });
+
+    var mysrc = this.src.substr(0, this.src.length - 7) + '.jpg';
+    $('#modalimage').attr('src', mysrc);
+    $('#modalimage').on('click', function () {
+      $('#modal').modal('hide');
+    });
+  });
+
+
+
 }); //jQuery is loaded
+
